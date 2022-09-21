@@ -1,0 +1,12 @@
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    max-width: 238px;
+    max-height: 350px;
+}
+.img-container p {
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+}

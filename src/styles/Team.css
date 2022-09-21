@@ -1,0 +1,40 @@
+.team-container {
+    margin-top: 70px;
+}
+.columns {
+    display: grid;
+    /*column-gap: 20px; Me separa las columnas */
+    grid-template-columns: auto auto auto;
+}
+.img-container {
+    display: flex;
+}
+.img-container img {
+    max-width: 238px;
+    max-height: 350px;
+}
+.img-container p {
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+}
+.img2 {
+    margin-top: 80px;
+}
+.img5 {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .columns {
+        grid-template-columns: auto auto;
+    } 
+    .img2 {
+        margin-top: 0;
+    }
+    .img5 {
+        margin-top: 0;
+    }
+    .columns .image:nth-child(even) {
+        margin-top: 80px;
+    }
+}
